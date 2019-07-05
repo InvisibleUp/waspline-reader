@@ -1,4 +1,5 @@
 cat libs/lineWrapDetector.js main.js > extension/contentScript.js
+cat libs/jquery-2.2.4.min.js libs/tinyColorPicker/jqColorPicker.min.js menu.js > extension/menu/menu.js
 
 while getopts ":i" opt; do
   case $opt in

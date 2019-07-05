@@ -2,3 +2,6 @@
 	path = libs/js-line-wrap-detector
 	url = git@github.com:corollari/js-line-wrap-detector.git
 	branch = inviz
+[submodule "libs/tinyColorPicker"]
+	path = libs/tinyColorPicker
+	url = https://github.com/PitPik/tinyColorPicker
